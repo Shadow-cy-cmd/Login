@@ -46,4 +46,4 @@ backend/     → Backend server (Python + PostgreSQL)
 
 👨‍💻 Author
 
-pramod
+Pramod
