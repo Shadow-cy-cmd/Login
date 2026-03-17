@@ -1,0 +1,17 @@
+choco install postgresql
+
+docker run --name pg -e POSTGRES_PASSWORD=pramod -e POSTGRES_USER=postgres -e POSTGRES_DB=interndemo -p 5432:5432 -d postgres
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+passlib[bcrypt]
+python-dotenv
+pydantic
+winget install --id Docker.DockerDesktop -e
+
+psql -U postgres -c "CREATE DATABASE interndemo;"
+
+
+
